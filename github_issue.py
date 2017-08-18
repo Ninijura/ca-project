@@ -4,7 +4,7 @@ import requests
 
 # Authentication for user filing issue (must have read/write access to
 # repository to add issue to)
-USERNAME = 'Ninijura'
+USERNAME = 'kira@tailorsoft.de'
 PASSWORD = os.environ['GITHUB_PASSWORD']
 
 # The repository to add this issue to
