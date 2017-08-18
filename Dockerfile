@@ -5,7 +5,9 @@ RUN apt-get install -y python-pip \
     python-dev \
     build-essential
 
-COPY . /src/app/
+RUN pip install --upgrade pip
+
+COPY . /usr/src/app/
 
 RUN pip install -r /usr/src/app/requirements.txt
 
